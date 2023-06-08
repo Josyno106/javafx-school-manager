@@ -1,0 +1,55 @@
+#close_button:hover{
+       -fx-background-color: red;
+       -fx-text-fill: white;
+       -fx-background-radius: 0;
+
+}
+#login_button:hover{
+
+
+}
+ #first_name_field,#last_name_field,#entry_behavior_field,#guardian_contact_field{
+
+        -fx-text-fill: antiquewhite;
+}
+ #add_button{
+         -fx-background-color: transparent;
+        -fx-text-fill: floralwhite;
+        -fx-border-color: white;
+ }
+ #cancel_button{
+        -fx-background-color: transparent;
+        -fx-text-fill: floralwhite;
+        -fx-border-color: white;
+ }
+ #add_button:hover{
+         -fx-background-color: #10CB0B ;
+        -fx-text-fill: white;
+         -fx-border-color: #10CB0B;
+
+ }
+ #all_studs_button:focused{
+      -fx-background-color: #10CB0B;
+ }
+ #cancel_button:hover{
+        -fx-background-color: #F70E01;
+
+        -fx-border-color: #F70E01;
+        -fx-text-fill: white;
+
+ }
+ #institution_label:hover{
+     -fx-scale-x: 1.2;
+     -fx-scale-y: 1.2;
+     -fx-scale-z: 1.1;
+ }
+ #cancel_button1:hover{
+     -fx-background-color: #F70E01;
+
+     -fx-border-color: #F70E01;
+     -fx-text-fill: white;
+
+ }
+ #tabs{
+      -fx-background-color: #10CB0B;
+ }

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="741.0" prefWidth="546.0" style="-fx-background-color: #070F5B;" stylesheets="@../theme.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.login_controller">
+   <children>
+      <StackPane fx:id="dialog_stack_pane" layoutY="22.0" prefHeight="405.0" prefWidth="546.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="314.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="22.0" />
+      <JFXButton fx:id="login_button" layoutX="149.0" layoutY="582.0" prefHeight="46.0" prefWidth="264.0" style="-fx-border-color: floralwhite;" text="login" textFill="#ebe9e9">
+         <font>
+            <Font name="Segoe UI" size="23.0" />
+         </font>
+      </JFXButton>
+      <TextField fx:id="username" layoutX="149.0" layoutY="429.0" promptText="ENTER USERNAME" style="-fx-border-color: gray;">
+         <font>
+            <Font name="Segoe UI" size="21.0" />
+         </font>
+      </TextField>
+      <Text fill="#fff8f8" layoutX="120.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Smart Masomo">
+         <font>
+            <Font name="Segoe UI" size="48.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="close_button" layoutX="507.0" layoutY="1.0" minWidth="39.0" prefHeight="27.0" prefWidth="30.0" text="X" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <PasswordField fx:id="password" layoutX="149.0" layoutY="492.0" promptText="ENTER PASSWORD" style="-fx-border-radius: 0; -fx-border-width: 40;">
+         <font>
+            <Font name="Segoe UI" size="21.0" />
+         </font>
+      </PasswordField>
+      <ImageView fitHeight="249.0" fitWidth="264.0" layoutX="149.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/BigRocket-1-01-512.png" />
+         </image>
+      </ImageView>
+      <JFXSpinner fx:id="progress_bar" layoutX="244.0" layoutY="651.0" radius="20.0" />
+   </children>
+</AnchorPane>

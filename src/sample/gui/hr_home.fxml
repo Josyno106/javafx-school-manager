@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="all_rippler_parent_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="676.0" prefWidth="978.0" style="-fx-background-color: #C8D4D5;" stylesheets="@../theme.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.hr_main_controller">
+   <children>
+      <VBox fx:id="everyone_vbox" layoutX="491.0" layoutY="55.0" prefHeight="468.0" prefWidth="359.0">
+         <children>
+            <Pane fx:id="everyone_parent_pane" prefHeight="352.0" prefWidth="256.0" style="-fx-background-color: #0049BF;">
+               <children>
+                  <Text fx:id="everyone_total" fill="#ffeeee" fontSmoothingType="LCD" layoutX="93.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="85">
+                     <font>
+                        <Font name="Segoe UI Bold" size="150.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="126.0" prefWidth="247.0" style="-fx-background-color: floralwhite;">
+               <children>
+                  <Text fill="#0049bf" fontSmoothingType="LCD" layoutX="105.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Everyone">
+                     <font>
+                        <Font name="Segoe UI Bold" size="35.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </VBox>
+      <VBox fx:id="casual_laborers_vbox" layoutX="143.0" layoutY="289.0" prefHeight="237.0" prefWidth="316.0">
+         <children>
+            <Pane fx:id="casual_labourers_parent_pane" prefHeight="164.0" prefWidth="297.0" style="-fx-background-color: #E30254;">
+               <children>
+                  <Text fx:id="casual_workers_total_text" fill="#ffeeee" fontSmoothingType="LCD" layoutX="110.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="43">
+                     <font>
+                        <Font name="Segoe UI Bold" size="57.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="86.0" prefWidth="255.0" style="-fx-background-color: floralwhite;">
+               <children>
+                  <Text fill="#e30254" fontSmoothingType="LCD" layoutX="90.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Casual">
+                     <font>
+                        <Font name="Segoe UI Bold" size="35.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </VBox>
+      <VBox fx:id="teachers_vbox" layoutX="143.0" layoutY="55.0" prefHeight="218.0" prefWidth="316.0">
+         <children>
+            <Pane fx:id="teachers_parent_anchor_pane" prefHeight="146.0" prefWidth="282.0" style="-fx-background-color: #FC4800;">
+               <children>
+                  <Text fx:id="teachers_tota_text" fill="#ffeeee" fontSmoothingType="LCD" layoutX="113.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="42">
+                     <font>
+                        <Font name="Segoe UI Bold" size="57.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="73.0" prefWidth="100.0" style="-fx-background-color: floralwhite;">
+               <children>
+                  <Text fill="#fc4800" fontSmoothingType="LCD" layoutX="86.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teachers">
+                     <font>
+                        <Font name="Segoe UI Bold" size="35.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </VBox>
+      <JFXButton fx:id="cancel_button" layoutX="754.0" layoutY="565.0" prefHeight="36.0" prefWidth="96.0" text="Close" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

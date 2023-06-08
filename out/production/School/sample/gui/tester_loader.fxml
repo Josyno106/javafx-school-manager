@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import org.controlsfx.control.SegmentedButton?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ButtonBar layoutX="307.0" layoutY="55.0" prefHeight="40.0" prefWidth="287.0">
+        <buttons>
+            <JFXRadioButton text="RadioButton" />
+            <JFXRadioButton layoutX="94.0" layoutY="22.0" prefHeight="17.0" text="RadioButton" />
+            <SegmentedButton />
+        </buttons>
+      </ButtonBar>
+      <JFXSpinner layoutX="501.0" layoutY="260.0" radius="70.0" />
+   </children>
+</AnchorPane>
